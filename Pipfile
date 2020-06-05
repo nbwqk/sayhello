@@ -4,10 +4,16 @@ url = "https://pypi.douban.com/simple/"
 verify_ssl = true
 
 [dev-packages]
+watchdog = "*"
+faker = "*"
 
 [packages]
 flask = "*"
 flask-sqlalchemy = "*"
+flask-wtf = "*"
+bootstrap-flask = "*"
+flask-moment = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"
